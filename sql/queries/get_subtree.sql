@@ -1,0 +1,1 @@
+select * from node where parent_ids_with_it @> array [:node_id];

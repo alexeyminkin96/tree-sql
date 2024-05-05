@@ -1,0 +1,1 @@
+select * from node where id in (select parent_ids_with_it from node where id = :node_id);
